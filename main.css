@@ -1,0 +1,149 @@
+main{
+    position: relative;
+    top: 110px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.first{
+    
+    width: 100vw;
+    height: 88vh;
+    background-color: var(--primary-purple-200);
+    /* background-color: red; */
+}
+
+.first > .contents{
+    max-width: var(--max-width);
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-purple-200);
+    margin: 0 auto;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+.text-box{
+    /* border: 1px solid #000; */
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+.text-box > .t1{
+    /* border: 1px solid #000; */
+    font-size: 80px;
+    font-weight: bold;
+    
+}
+.text-box > .t2{
+    /* border: 1px solid #000; */
+    margin-top: 2rem;
+    font-size: 40px;
+    font-weight: bold;
+}
+.text-box > .store-box{
+    /* border: 1px solid #000; */
+    margin-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.store-box > span{
+    /* border: 1px solid #000; */
+    background-color: white;
+    font-size: 30px;
+    
+    padding:  1.5rem 3rem 1.5rem 3rem;
+    border-radius: 10px;
+}
+.image-container{
+    /* border: 1px solid #000; */
+    width: 800px;
+    height: 800px;
+    /* border: 1px solid #000; */
+}
+.image-box1{
+    /* border: 1px solid #000; */
+    position: relative;
+    /* margin-left: 15rem; */
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid #000; */
+}
+.img1{
+    width: 100%;
+    height: 100%;
+}
+.image-box2{
+    /* border: 1px solid #000; */
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+    
+    width: 900px;
+    height: 700px;
+    /* border: 1px solid #000; */
+    
+}
+.image-box2>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*  */
+.second{
+    width: 100vw;
+    height: 50vh;
+    background-color: #F1EEE1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second > .contents{
+    max-width: var(--max-width);
+    width: 100%;
+    height: 100%;
+    background-color: F1EEE1;
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 30px;
+}
+.card{
+    width: 480px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card > .t1 {
+    font-size: 40px;
+    color: purple;
+    font-weight: bold;
+}
+.card > .t2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.card > .t3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
